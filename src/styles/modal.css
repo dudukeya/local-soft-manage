@@ -1,0 +1,20 @@
+/* 项目配置弹窗由 global.css 提供布局；设置弹窗使用独立的紧凑列表。 */
+.settings-surface { width: min(520px, 100%); max-height: min(680px, calc(100vh - 32px)); overflow: hidden; border: 1px solid var(--line2); border-radius: 12px; background: var(--panel); box-shadow: 0 25px 80px #0008; }
+.settings-body { display: grid; gap: 12px; max-height: 480px; overflow-y: auto; padding: 18px 20px 10px; }
+.settings-section-heading { display: flex; align-items: end; justify-content: space-between; gap: 12px; color: var(--text); }
+.settings-section-heading div { display: grid; gap: 3px; }
+.settings-section-heading strong { font-size: 13px; }
+.settings-section-heading small, .settings-section-heading > span { color: var(--muted); font-size: 10px; }
+.settings-add-row { display: flex; gap: 7px; }
+.settings-add-row input { min-width: 0; flex: 1; border: 1px solid var(--line2); border-radius: 6px; padding: 8px 10px; color: var(--text); background: var(--panel-2); font-size: 12px; }
+.settings-add-row input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px #7aa2ff24; }
+.settings-category-list { display: grid; gap: 5px; }
+.settings-category-item { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 48px; border: 1px solid var(--line); border-radius: 7px; padding: 5px 7px 5px 13px; color: var(--text); background: var(--panel-2); font-size: 13px; }
+.settings-category-actions { display: flex; gap: 4px; }
+.settings-category-item .icon-button { width: 36px; height: 36px; border-color: transparent; }
+.settings-category-item .icon-button svg { width: 18px; height: 18px; stroke-width: 2.2; }
+.settings-category-item .icon-button:hover:not(:disabled) { background: #ffffff12; }
+.settings-delete-button { color: var(--danger) !important; }
+.settings-empty { margin: 0; padding: 24px 10px; color: var(--muted); font-size: 11px; text-align: center; }
+.settings-message { margin: 0; color: var(--danger); font-size: 11px; }
+.settings-footer { padding: 13px 20px 20px; }

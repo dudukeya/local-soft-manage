@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Local Soft Manage">
+  <defs>
+    <linearGradient id="background" x1="64" y1="48" x2="448" y2="464" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5878EA"/>
+      <stop offset="1" stop-color="#6F4BC3"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#background)"/>
+  <rect x="76" y="100" width="360" height="312" rx="44" fill="#0B1020" fill-opacity=".92"/>
+  <circle cx="122" cy="146" r="12" fill="#FF7383"/>
+  <circle cx="160" cy="146" r="12" fill="#FFD56A"/>
+  <circle cx="198" cy="146" r="12" fill="#65DBA2"/>
+  <path d="m132 232 74 60-74 60" fill="none" stroke="#DCE5FF" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"/>
+  <path d="M238 350h116" fill="none" stroke="#8FA7FF" stroke-linecap="round" stroke-width="30"/>
+</svg>
