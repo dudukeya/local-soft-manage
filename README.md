@@ -215,3 +215,29 @@ src-tauri/src/
 ## 安全边界
 
 Local Soft Manage 只执行用户在项目配置中填写的命令。应用不会扫描磁盘、远程同步项目或自动修改项目源代码；项目目录、脚本内容以及脚本启动的子进程由用户自行负责。
+
+## 许可与第三方依赖
+
+本项目自身的源代码和未另行标注的项目内容采用 MIT License，详见根目录
+[`LICENSE`](LICENSE)。该许可不改变第三方依赖及其附带内容各自适用的许可
+和版权声明。
+
+主要第三方依赖及许可如下：
+
+- `@tauri-apps/api`、`@tauri-apps/plugin-dialog`、Tauri Rust 框架及插件：
+  MIT 或 Apache-2.0；
+- `react`、`react-dom`、`@xterm/xterm`、`@xterm/addon-fit`、`vite`、
+  `vitest` 及多数前端开发工具：MIT；
+- `lucide-react`：ISC；其中部分图标沿用 Feather 项目的 MIT 许可；
+- `typescript`：Apache-2.0；
+- `rusqlite`：MIT；`serde`：MIT 或 Apache-2.0；
+- 构建工具间接使用的 `caniuse-lite` 数据：CC BY 4.0，归属说明为
+  `caniuse.com`。
+
+发布包含第三方依赖的源码包、安装包或其他再分发物时，请保留相应的版权、
+许可和归属声明。完整依赖版本以 `package.json`、`pnpm-lock.yaml`、
+`src-tauri/Cargo.toml` 和 `src-tauri/Cargo.lock` 为准。
+
+Windows、PowerShell、WebView2、React、Tauri、xterm.js 等名称和商标归其
+各自权利人所有；本项目不暗示与相关权利人存在官方关联或背书关系。项目截图、
+图标及其他非依赖资源应在再分发前确认其版权和隐私权来源。
